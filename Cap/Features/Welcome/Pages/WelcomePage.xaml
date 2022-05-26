@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:main="clr-namespace:Cap"
+    x:Class="Cap.WelcomePage"
+    x:Name="root"
+    x:DataType="main:WelcomePageViewModel">
+    <Grid>
+        <ScrollView>
+            <StackLayout
+                Spacing="0">
+                <CarouselView
+                    ItemsSource="{Binding CarouselItems}"
+                    IndicatorView="indicatorView">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate
+                            x:DataType="main:WelcomeModel">
+                            <Grid
+                                RowDefinitions="Auto,Auto">
+                                <StackLayout
+                                    HeightRequest="404"
+                                    VerticalOptions="End">
+                                    <Grid>
+                                        <Image
+                                            IsVisible="{Binding IsShow1}"
+                                            Source="{Binding BackGroundImageSource}"
+                                            Margin="0"
+                                            Aspect="AspectFill" />
+                                        <Image
+                                            IsVisible="{Binding IsShow2}"
+                                            Source="{Binding BackGroundImageSource}"
+                                            Aspect="AspectFit"
+                                            VerticalOptions="End" />
+                                        <Image
+                                            Source="{Binding ImageSource}"
+                                            Margin="{Binding MarginImage}" />
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout
+                                    Grid.Row="1"
+                                    VerticalOptions="End"
+                                    HorizontalOptions="CenterAndExpand">
+                                    <Label
+                                        Text="{Binding Title}"
+                                        FontSize="24"
+                                        FontAttributes="Bold"
+                                        WidthRequest="288"
+                                        TextColor="#595959"
+                                        FontFamily="Archia"
+                                        HorizontalTextAlignment="Center" />
+                                    <Label
+                                        Text="{Binding HelpText}"
+                                        FontSize="14"
+                                        WidthRequest="298"
+                                        HeightRequest="97"
+                                        TextColor="#595959"
+                                        FontFamily="Archia"
+                                        HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <IndicatorView
+                    HeightRequest="50"
+                    x:Name="indicatorView"
+                    IndicatorColor="LightGray"
+                    SelectedIndicatorColor="Green"
+                    HorizontalOptions="Center"
+                    PropertyChanged="indicatorView_PropertyChanged" />
+                <StackLayout
+                    Margin="50"
+                    HorizontalOptions="CenterAndExpand">
+                    <Button
+                        x:Name="ButtonContinue"
+                        Text="{Binding TextButon1}"
+                        TextColor="#FFF8F3"
+                        BackgroundColor="#575FCC"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        WidthRequest="252"
+                        HeightRequest="48"
+                        CornerRadius="13"
+                        Clicked="Button_Continue" />
+                    <Button
+                        Padding="0,20,0,0"
+                        Text="{Binding TextButon2}"
+                        TextColor="#555670"
+                        BackgroundColor="White"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        WidthRequest="252"
+                        HeightRequest="48"
+                        CornerRadius="13" />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
