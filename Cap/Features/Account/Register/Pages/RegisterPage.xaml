@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.RegisterPage"
+    BackgroundColor="#E5E5E5">
+    <ScrollView
+        VerticalOptions="End">
+        <StackLayout
+            VerticalOptions="EndAndExpand">
+            <StackLayout
+                HorizontalOptions="CenterAndExpand">
+                <StackLayout
+                    VerticalOptions="EndAndExpand"
+                    Spacing="50">
+                    <Image
+                        Source="login_logo.svg"
+                        HeightRequest="48"
+                        WidthRequest="68"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center" />
+                    <Label
+                        Text="Đăng nhập"
+                        TextColor="#262626"
+                        FontSize="24"
+                        FontFamily="Archia"
+                        HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <Label
+                    Padding="60,0"
+                    Text="Chúng tôi sẽ gửi OTP ở bước kế tiếp, Vui lòng hoàn tất thông tin của bạn."
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="14"
+                    FontFamily="Archia"
+                    TextColor="#555670"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

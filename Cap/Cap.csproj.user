@@ -8,6 +8,15 @@
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Features\Account\Common\InputView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\Login\Pages\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\Register\Pages\RegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Welcome\Pages\WelcomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

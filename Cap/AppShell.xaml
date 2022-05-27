@@ -7,8 +7,10 @@
     xmlns:main ="clr-namespace:Cap.Features.Welcome.Pages"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
+    <!--<ShellContent
         ContentTemplate="{DataTemplate local:WelcomePage}"
-        Route="WelcomePage" />
-
+        Route="WelcomePage" />-->
+    <ShellContent
+        ContentTemplate="{DataTemplate local:RegisterPage}"
+        Route="RegisterPage" />
 </Shell>

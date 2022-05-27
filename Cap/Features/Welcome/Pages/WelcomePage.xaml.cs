@@ -21,7 +21,12 @@ public partial class WelcomePage : ContentPage
         {
             indicatorView.Position = indicatorView.Position + 1;
         }
-        
+        if (indicatorView.Position == indicatorView.Count -1)
+        {
+
+
+        }
+
     }
 
     [Obsolete]
@@ -37,5 +42,6 @@ public partial class WelcomePage : ContentPage
             ButtonContinue.Text = "Tiếp tục";
             ButtonContinue.BackgroundColor = Color.FromHex("#575FCC");
         }
+
     }
 }

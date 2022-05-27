@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout
+    x:Name="root"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.InputView">
+    <Frame
+        BackgroundColor="#FFFFFF"
+        x:Name="TextBox"
+        Margin="0"
+        Padding="0"
+        VerticalOptions="Start"
+        BorderColor="{Binding BorderColor, Source={x:Reference root}}"
+        HeightRequest="56"
+        HasShadow="False">
+        <Grid>
+            <StackLayout
+                Orientation="Horizontal"
+                Spacing="0">
+                <Image
+                    Source="{Binding PrefixIcon, Source={x:Reference root}}"
+                    HeightRequest="20"
+                    WidthRequest="20"
+                    VerticalOptions="Center"
+                    Margin="20,0,0,0" />
+                <Entry
+                    x:Name="TextEntry"
+                    IsPassword="{Binding IsPassword, Source={x:Reference root}}"
+                    HorizontalOptions="FillAndExpand"
+                    Placeholder="{Binding PlaceholderText, Source={x:Reference root}}"
+                    FontSize="16"
+                    FontFamily="Archia"
+                    Margin="10,15,0,15"
+                    HeightRequest="50"
+                    Focused="TextEntry_Focused"
+                    Unfocused="TextEntry_Unfocused"
+                    Keyboard="{Binding KeyboardType, Source={x:Reference root}}">
+                </Entry>
+            </StackLayout>
+        </Grid>
+    </Frame>
+</StackLayout>

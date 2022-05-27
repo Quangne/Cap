@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:main="clr-namespace:Cap"
+    x:Class="Cap.LoginPage"
+    x:DataType="main:LoginPageViewModel"
+    BackgroundColor="#E5E5E5">
+    <ScrollView
+        VerticalOptions="Center">
+        <Grid
+            RowDefinitions="*,*,*"
+            Margin="20,0"
+            RowSpacing="30">
+            <StackLayout
+                Margin="0,80,0,0"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand">
+                <StackLayout
+                    VerticalOptions="EndAndExpand"
+                    Spacing="50">
+                    <Image
+                        Source="login_logo.svg"
+                        HeightRequest="48"
+                        WidthRequest="68"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center" />
+                    <Label
+                        Text="Đăng nhập"
+                        TextColor="#262626"
+                        FontSize="24"
+                        FontFamily="Archia"
+                        HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout
+                Grid.Row="1"
+                VerticalOptions="CenterAndExpand">
+                <StackLayout
+                    Spacing="12">
+                    <StackLayout>
+                        <main:InputView
+                            PrefixIcon="phone_icon.svg"
+                            PlaceholderText="Nhập số điện thoại"
+                            KeyboardType="Numeric">
+                        </main:InputView>
+                    </StackLayout>
+                    <StackLayout>
+                        <main:InputView
+                            PrefixIcon="password_icon.svg"
+                            PlaceholderText="Nhập mật khẩu"
+                            IsPassword="True">
+                        </main:InputView>
+                    </StackLayout>
+                    <Label
+                        Text="Quên mật khẩu?"
+                        TextColor="#739EF1"
+                        HorizontalOptions="EndAndExpand"
+                        FontSize="14"
+                        FontFamily="Archia" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout
+                Margin="0,60,0,20"
+                Grid.Row="2"
+                VerticalOptions="EndAndExpand">
+                <StackLayout
+                    VerticalOptions="StartAndExpand"
+                    Spacing="32">
+                    <Label 
+                        x:Name="labelErr"
+                        HorizontalOptions="CenterAndExpand"
+                        Text=""
+                        TextColor="#E5E5E5">
+                        
+                    </Label>
+                    <Button
+                        x:Name="Buttonlogin"
+                        Text="Đăng nhập"
+                        TextColor="#FFF8F3"
+                        BackgroundColor="#575FCC"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        WidthRequest="252"
+                        HeightRequest="48"
+                        CornerRadius="13"
+                        Clicked="Buttonlogin_Clicked"/>
+                    <StackLayout
+                        HorizontalOptions="CenterAndExpand">
+                        <Label
+                            Text="Hoặc đăng nhập bằng"
+                            TextColor="#9393AB"
+                            FontSize="14" />
+                    </StackLayout>
+                    <StackLayout
+                        Spacing="24"
+                        Orientation="Horizontal"
+                        HorizontalOptions="CenterAndExpand">
+                        <Image
+                            Source="apple.svg"
+                            WidthRequest="48"
+                            HeightRequest="48" />
+                        <Image
+                            Source="facebook.svg"
+                            WidthRequest="48"
+                            HeightRequest="48" />
+                        <Image
+                            Source="google.svg"
+                            WidthRequest="48"
+                            HeightRequest="48" />
+                    </StackLayout>
+                    <StackLayout
+                        HorizontalOptions="CenterAndExpand"
+                        Orientation="Horizontal">
+                        <Label
+                            Text="Chưa có tài khoản?"
+                            TextColor="#9393AB"
+                            FontSize="14" />
+                        <Label
+                            x:Name="lblRegister"
+                            Text=" Đăng ký"
+                            TextColor="#739EF1"
+                            FontSize="14" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

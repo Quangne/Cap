@@ -49,12 +49,27 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Features\Account\Login\Models\" />
+	  <Folder Include="Features\Account\Login\Views\" />
+	  <Folder Include="Features\Account\Login\Resources\" />
+	  <Folder Include="Features\Account\Register\Models\" />
+	  <Folder Include="Features\Account\Register\Views\" />
+	  <Folder Include="Features\Account\Register\Resources\" />
 	  <Folder Include="Features\Welcome\Resources\" />
 	  <Folder Include="Features\Welcome\Views\" />
 	  <Folder Include="UI\" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Features\Account\Common\InputView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Features\Account\Login\Pages\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Features\Account\Register\Pages\RegisterPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Features\Welcome\Pages\WelcomePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
