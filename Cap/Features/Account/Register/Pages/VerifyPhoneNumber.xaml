@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:main="clr-namespace:Cap"
+    x:Class="Cap.VerifyPhoneNumber">
+    <ScrollView
+        VerticalOptions="Center">
+        <Grid
+            RowDefinitions="*,*,*"
+            Margin="20,0"
+            RowSpacing="30">
+            <StackLayout
+                Margin="0,80,0,0"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="EndAndExpand">
+                <StackLayout
+                    VerticalOptions="EndAndExpand">
+                    <Image
+                        Source="login_logo.svg"
+                        HeightRequest="48"
+                        WidthRequest="68"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center" />
+                    <Label
+                        Text="Xác thực số điện thoại"
+                        TextColor="#262626"
+                        FontSize="24"
+                        FontFamily="Archia"
+                        HorizontalOptions="CenterAndExpand"
+                        Margin="54,50,54,12" />
+                    <Label
+                        Text="Chúng tôi đã gửi mã xác nhận tới 0961212489"
+                        TextColor="#555670"
+                        FontSize="14"
+                        FontFamily="Archia"
+                        HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout
+                Grid.Row="1"
+                VerticalOptions="CenterAndExpand">
+                <main:DotInput>
+
+                </main:DotInput>
+                <StackLayout
+                    Margin="0,50">
+                    <Label 
+                        Text="60s"
+                        x:Name="CountDownLabel"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="24"
+                        TextColor="#68D1A2"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout
+                Grid.Row="2"
+                VerticalOptions="CenterAndExpand"
+                Spacing="30">
+                <Label
+                    x:Name="ErrLabel" 
+                    Text="OTP bạn nhập không đúng!"
+                    TextColor="#D32814"
+                    FontSize="14" 
+                    HorizontalTextAlignment="Center"
+                    IsVisible="false"/>
+                <Label
+                    x:Name="ResendLabel" 
+                    Text="Gửi lại mã OTP"
+                    TextColor="#575FCC"
+                    FontSize="14"
+                    HorizontalTextAlignment="Center"/>
+                <Button
+                    x:Name="Buttonlogin"
+                    Text="Tiếp tục"
+                    TextColor="#FFF8F3"
+                    BackgroundColor="#575FCC"
+                    FontSize="16"
+                    FontFamily="Archia"
+                    WidthRequest="252"
+                    HeightRequest="48"
+                    CornerRadius="13"
+                    Clicked="Buttonlogin_Clicked" />
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

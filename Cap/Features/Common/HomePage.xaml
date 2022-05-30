@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:main="clr-namespace:Cap"
+    x:Class="Cap.HomePage">
+    <TabBar>
+        <Tab
+            Title="Trang chủ"
+            Icon="home_icon.svg"
+            >
+            <ShellContent
+                ContentTemplate="{DataTemplate main:ForgotPasswordGoBack}" />
+        </Tab>
+        <Tab
+            Title="Trò chuyện"
+            Icon="chat_icon.svg">
+            <ShellContent
+                ContentTemplate="{DataTemplate main:LoginPage}" />
+        </Tab>
+    </TabBar>
+</Shell>
