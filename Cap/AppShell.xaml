@@ -4,13 +4,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Cap"
-    xmlns:main ="clr-namespace:Cap.Features.Welcome.Pages"
     Shell.FlyoutBehavior="Disabled">
 
     <!--<ShellContent
         ContentTemplate="{DataTemplate local:WelcomePage}"
         Route="WelcomePage" />-->
     <ShellContent
-        ContentTemplate="{DataTemplate local:RegisterPage}"
-        Route="RegisterPage" />
+        ContentTemplate="{DataTemplate local:MyIDPage}"
+        Route="MyIDPage" />
 </Shell>

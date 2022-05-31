@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.HomeBasePage"
+    xmlns:main="clr-namespace:Cap"
+    x:DataType="main:TabHomeBaseViewModel"
+    BackgroundColor="#E5E5E5">
+    <ContentPage.Resources>
+        <main:TabHome
+            x:Key="tab" />
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout
+                VerticalOptions="StartAndExpand"
+                BackgroundColor="#575FCC">
+                <StackLayout
+                    Orientation="Horizontal"
+                    Margin="0,32,0,0">
+                    <ImageButton
+                        Source="cap_icon.svg"
+                        WidthRequest="56"
+                        HeightRequest="23"
+                        Margin="20,0"
+                        HorizontalOptions="StartAndExpand" />
+                    <ImageButton
+                        Source="noti_icon.svg"
+                        HeightRequest="37"
+                        WidthRequest="35"
+                        Margin="10,0"
+                        HorizontalOptions="EndAndExpand" />
+                </StackLayout>
+                <StackLayout
+                    Orientation="Horizontal"
+                    Margin="25,20,25,13"
+                    Spacing="20">
+
+                    <Frame
+                        x:Name="story"
+                        BackgroundColor="#575FCC"
+                        HeightRequest="32"
+                        WidthRequest="160"
+                        BorderColor="#575FCC"
+                        Padding="-5"
+                        VerticalOptions="StartAndExpand">
+                        <StackLayout
+                            HorizontalOptions="CenterAndExpand">
+                            <Button
+                                x:Name="buttonStory"
+                                Text="Chuyện 2 ta"
+                                TextColor="#739EF1"
+                                FontSize="14"
+                                BackgroundColor="#575FCC"
+                                HorizontalOptions="CenterAndExpand"
+                                Clicked="Story_Clicked" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame
+                        x:Name="Home"
+                        BackgroundColor="#575FCC"
+                        HeightRequest="32"
+                        WidthRequest="160"
+                        BorderColor="#575FCC"
+                        Padding="-5"
+                        VerticalOptions="EndAndExpand">
+                        <StackLayout
+                            HorizontalOptions="CenterAndExpand">
+                            <Button
+                                x:Name="buttonHome"
+                                Text="Tường nhà"
+                                TextColor="#739EF1"
+                                FontSize="14"
+                                BackgroundColor="#575FCC"
+                                HorizontalOptions="CenterAndExpand"
+                                Clicked="Home_Clicked" />
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout
+                Margin="61,145,61,0">
+                <StackLayout
+                    HorizontalOptions="Center">
+                    <Image 
+                        Source="heart.svg"/>
+                </StackLayout>
+                <StackLayout
+                    HorizontalOptions="Center"
+                    Margin="0,80,0,0">
+                    <Label
+                        Text="Bạn đã có Partner chưa? "
+                        TextColor="#555670"/>
+                    <Label
+                        Text="Thực hiện ghép đôi ngay!"
+                        TextColor="#555670"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout
+                Margin="0,48">
+                <Button
+                    x:Name="Buttonlogin"
+                    Text="Ghép đôi"
+                    TextColor="#FFF8F3"
+                    BackgroundColor="#FF5C9E"
+                    FontSize="16"
+                    FontFamily="Archia"
+                    WidthRequest="252"
+                    HeightRequest="48"
+                    CornerRadius="13"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

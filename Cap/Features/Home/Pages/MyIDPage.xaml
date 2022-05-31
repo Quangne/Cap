@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.MyIDPage"
+    BackgroundColor="#E5E5E5">
+    <StackLayout>
+        <Frame
+            VerticalOptions="Start"
+            HasShadow="false"
+            BorderColor="White"
+            BackgroundColor="White"
+            WidthRequest="390"
+            HeightRequest="70">
+            <StackLayout>
+                <Label
+                    Text="Ghép đôi"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    FontSize="20" />
+            </StackLayout>
+        </Frame>
+        <StackLayout
+            VerticalOptions="Center"
+            HorizontalOptions="CenterAndExpand"
+            Margin="37,77,37,0"
+            Spacing="12">
+            <Label
+                Text="ID ghép đôi"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" />
+            <Label
+                Text="Cung cấp mã ghép đôi/gửi link cho người yêu của bạn để ghép đôi trên CAP."
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="#555670" />
+            <Frame
+                BackgroundColor="#E5E5E5"
+                BorderColor="#68D1A2"
+                Padding="31,5,31,5"
+                Margin="0,44">
+                <StackLayout
+                    Orientation="Horizontal"
+                    Spacing="28">
+                    <Label
+                        Text="4"
+                        FontSize="32" />
+                    <Label
+                        Text="8"
+                        FontSize="32" />
+                    <Label
+                        Text="9"
+                        FontSize="32" />
+                    <Label
+                        Text="1"
+                        FontSize="32" />
+                    <Label
+                        Text="2"
+                        FontSize="32" />
+                    <Label
+                        Text="7"
+                        FontSize="32" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        <StackLayout
+            VerticalOptions="EndAndExpand"
+            Orientation="Horizontal"
+            Margin="66,50"
+            Spacing="70">
+            <Label 
+                Text="Gửi link"
+                TextColor="#575FCC"
+                FontSize="16"
+                Padding="0,20"/>
+            <Button
+                Text="ID của tôi"
+                TextColor="#555670"
+                BackgroundColor="#DADBE7"
+                FontSize="16"
+                FontFamily="Archia"
+                WidthRequest="144"
+                HeightRequest="46"
+                CornerRadius="13" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

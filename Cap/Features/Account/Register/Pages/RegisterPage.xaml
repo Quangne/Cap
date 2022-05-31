@@ -63,16 +63,17 @@
                 </main:InputView>
             </StackLayout>
             <StackLayout
-                Margin="0,40,0,73">
+                Margin="0,40,0,0">
                 <Button
                     x:Name="Buttonlogin"
                     Text="Đăng ký"
-                    BackgroundColor="#DADBE7"
+                    BackgroundColor="#575FCC"
                     FontSize="16"
                     FontFamily="Archia"
                     WidthRequest="252"
                     HeightRequest="48"
-                    CornerRadius="13"/>
+                    CornerRadius="13"
+                    IsEnabled="True"/>
             </StackLayout>
         </StackLayout>
     </ScrollView>

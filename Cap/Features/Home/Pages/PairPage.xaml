@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cap.PairPage">
+    <ScrollView>
+        <StackLayout>
+            <Grid>
+                <StackLayout
+                    Margin="120,0,0,0">
+                    <Image
+                        Source="back_ground_forgot.svg"
+                        Margin="0"
+                        Aspect="AspectFill" />
+                </StackLayout>
+                <StackLayout
+                    Margin="42,75,31,0">
+                    <Image
+                        Source="mask_group.svg"
+                        Margin="0"
+                        Aspect="AspectFill" />
+                </StackLayout>
+                <Frame
+                    VerticalOptions="StartAndExpand"
+                    HasShadow="false"
+                    BorderColor="White"
+                    BackgroundColor="White"
+                    WidthRequest="390"
+                    HeightRequest="70">
+                    <StackLayout>
+                        <Label
+                            Text="Ghép đôi"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            FontSize="20" />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <StackLayout
+                Margin="0,13">
+                <Grid>
+                    <StackLayout
+                        HorizontalOptions="StartAndExpand">
+                        <Image
+                            Source="background.svg"
+                            Margin="0"
+                            Aspect="AspectFill" />
+                    </StackLayout>
+                    <StackLayout
+                        Margin="48,83,48,0"
+                        HorizontalOptions="CenterAndExpand">
+                        <Label
+                            FontSize="14"
+                            Text="Kết nối cùng với partner của bạn để sử dụng tất cả các chức năng của app." />
+                    </StackLayout>
+                </Grid>
+                <StackLayout
+                    Margin="16"
+                    Spacing="24">
+                    <Button
+                        Text="ID của tôi"
+                        TextColor="#FFF8F3"
+                        BackgroundColor="#575FCC"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        WidthRequest="252"
+                        HeightRequest="48"
+                        CornerRadius="13" />
+                    <Button
+                        Text="Nhập ID ghép đôi"
+                        TextColor="#FFF8F3"
+                        BackgroundColor="#FF5C9E"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        WidthRequest="252"
+                        HeightRequest="48"
+                        CornerRadius="13" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

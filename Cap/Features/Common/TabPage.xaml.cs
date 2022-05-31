@@ -1,8 +1,8 @@
 namespace Cap;
 
-public partial class HomePage 
+public partial class TabPage 
 {
-	public HomePage()
+	public TabPage()
 	{
 		InitializeComponent();
 	}

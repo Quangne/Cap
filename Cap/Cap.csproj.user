@@ -6,9 +6,22 @@
     <ActiveDebugProfile>Pixel 5 - API 30 (Android 11.0 - API 30)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
+    <SelectedDevice>galaxy_nexus_-_api_30</SelectedDevice>
   </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Features\Account\Common\InputView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\ForgotPassword\Page\ChangePasswordPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\ForgotPassword\Page\ForgotPasswordGoBack.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\ForgotPassword\Page\ForgotPasswordPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Account\ForgotPassword\Page\ForgotPasswordVerify.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Account\Login\Pages\LoginPage.xaml">
@@ -17,7 +30,28 @@
     <MauiXaml Update="Features\Account\Register\Pages\RegisterPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Features\Account\Register\Pages\VerifyPhoneNumber.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Chat\Pages\ChatPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Common\TabHome.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Pages\MyIDPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Pages\PairPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Welcome\Pages\WelcomePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="UI\Common\DotInput.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="UI\Styles\TabBarStyle.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

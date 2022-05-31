@@ -41,7 +41,8 @@
             <StackLayout
                 Grid.Row="1"
                 VerticalOptions="CenterAndExpand">
-                <main:DotInput>
+                <main:DotInput
+                    BackgroundColor="White">
 
                 </main:DotInput>
                 <StackLayout

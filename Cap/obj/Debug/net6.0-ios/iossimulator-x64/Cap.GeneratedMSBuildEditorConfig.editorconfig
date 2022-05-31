@@ -27,6 +27,30 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Commo
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Common\InputView.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Common\InputView.xaml
 
+[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ChangePasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ChangePasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ChangePasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ChangePasswordPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordGoBack.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordGoBack.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordGoBack.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordGoBack.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordVerify.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordVerify.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordVerify.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordVerify.xaml
+
 [C:/Users/User/source/repos/Cap/Cap/Features/Account/Login/Pages/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Login.Pages.LoginPage.xaml
@@ -38,6 +62,48 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Register.Pages.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Register\Pages\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Register\Pages\RegisterPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Account/Register/Pages/VerifyPhoneNumber.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Register.Pages.VerifyPhoneNumber.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Account\Register\Pages\VerifyPhoneNumber.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Account\Register\Pages\VerifyPhoneNumber.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Chat/Pages/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Chat.Pages.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Chat\Pages\ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Chat\Pages\ChatPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Common/TabHome.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Common.TabHome.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Common\TabHome.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Common\TabHome.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Common/TabPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Common.TabPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Common\TabPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Common\TabPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/HomeBasePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.HomeBasePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\HomeBasePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\HomeBasePage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/MyIDPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.MyIDPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\MyIDPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\MyIDPage.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/PairPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.PairPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\PairPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\PairPage.xaml
 
 [C:/Users/User/source/repos/Cap/Cap/Features/Welcome/Pages/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -62,3 +128,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/UI/Common/DotInput.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.UI.Common.DotInput.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Common\DotInput.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Common\DotInput.xaml
+
+[C:/Users/User/source/repos/Cap/Cap/UI/Styles/TabBarStyle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.UI.Styles.TabBarStyle.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Styles\TabBarStyle.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Styles\TabBarStyle.xaml
