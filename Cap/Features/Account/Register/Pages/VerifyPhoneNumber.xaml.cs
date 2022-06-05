@@ -4,7 +4,6 @@ public partial class VerifyPhoneNumber : ContentPage
 {
     private int _countSeconds = 60;
 
-    [Obsolete]
     public VerifyPhoneNumber()
 	{
 		InitializeComponent();
@@ -25,5 +24,6 @@ public partial class VerifyPhoneNumber : ContentPage
     private void Buttonlogin_Clicked(object sender, EventArgs e)
     {
         ErrLabel.IsVisible = true;
+        Shell.Current.GoToAsync(nameof(TabPage));
     }
 }

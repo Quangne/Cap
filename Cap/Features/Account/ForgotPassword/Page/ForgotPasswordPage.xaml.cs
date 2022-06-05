@@ -7,4 +7,8 @@ public partial class ForgotPasswordPage : ContentPage
 		InitializeComponent();
 	}
 
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync(nameof(ForgotPasswordVerify));
+    }
 }

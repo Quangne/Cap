@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.PartnerView">
+    <StackLayout
+        Margin="61,145,61,0">
+        <StackLayout
+            HorizontalOptions="Center">
+            <Image
+                Source="heart.svg" />
+        </StackLayout>
+        <StackLayout
+            HorizontalOptions="Center"
+            Margin="0,80,0,0">
+            <Label
+                Text="Bạn đã có Partner chưa? "
+                TextColor="#555670" />
+            <Label
+                Text="Thực hiện ghép đôi ngay!"
+                TextColor="#555670" />
+        </StackLayout>
+    </StackLayout>
+    <StackLayout
+        Margin="0,48">
+        <Button
+            x:Name="Buttonlogin"
+            Text="Ghép đôi"
+            TextColor="#FFF8F3"
+            BackgroundColor="#FF5C9E"
+            FontSize="16"
+            FontFamily="Archia"
+            WidthRequest="252"
+            HeightRequest="48"
+            CornerRadius="13" 
+            Clicked="Buttonlogin_Clicked"/>
+    </StackLayout>
+</StackLayout>

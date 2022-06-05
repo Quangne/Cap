@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:main="clr-namespace:Cap"
     x:Class="Cap.RegisterPage"
+    Shell.PresentationMode="ModalAnimated"
     BackgroundColor="#E5E5E5">
     <ScrollView
         VerticalOptions="Start"
@@ -73,7 +74,8 @@
                     WidthRequest="252"
                     HeightRequest="48"
                     CornerRadius="13"
-                    IsEnabled="True"/>
+                    IsEnabled="True"
+                    Clicked="Buttonlogin_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ScrollView>

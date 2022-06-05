@@ -7,135 +7,153 @@ build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cap
-build_property.ProjectDir = C:\Users\User\source\repos\Cap\Cap\
+build_property.ProjectDir = C:\Users\Asus\Downloads\Cap\Cap\
 
-[C:/Users/User/source/repos/Cap/Cap/App.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/AppShell.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/Common/InputView.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/Common/InputView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Common.InputView.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Common\InputView.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Common\InputView.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ChangePasswordPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/ForgotPassword/Page/ChangePasswordPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ChangePasswordPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ChangePasswordPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ChangePasswordPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordGoBack.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordGoBack.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordGoBack.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordGoBack.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordGoBack.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordVerify.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/ForgotPassword/Page/ForgotPasswordVerify.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.ForgotPassword.Page.ForgotPasswordVerify.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\ForgotPassword\Page\ForgotPasswordVerify.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\ForgotPassword\Page\ForgotPasswordVerify.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/Login/Pages/LoginPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/Login/Pages/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Login.Pages.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Login\Pages\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Login\Pages\LoginPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/Register/Pages/RegisterPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/Register/Pages/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Register.Pages.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Register\Pages\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Register\Pages\RegisterPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Account/Register/Pages/VerifyPhoneNumber.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Account/Register/Pages/VerifyPhoneNumber.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Account.Register.Pages.VerifyPhoneNumber.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Account\Register\Pages\VerifyPhoneNumber.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Account\Register\Pages\VerifyPhoneNumber.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Chat/Pages/ChatPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Chat/Pages/ChatPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Chat.Pages.ChatPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Chat\Pages\ChatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Chat\Pages\ChatPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Common/TabHome.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Common/TabHome.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Common.TabHome.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Common\TabHome.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Common\TabHome.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Common/TabPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Common/TabPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Common.TabPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Common\TabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Common\TabPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/HomeBasePage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/FindIdPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.FindIdPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\FindIdPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\FindIdPage.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/HomeBasePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.HomeBasePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\HomeBasePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\HomeBasePage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/MyIDPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/MyIDPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.MyIDPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\MyIDPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\MyIDPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Home/Pages/PairPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/PairPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.PairPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\PairPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\PairPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Features/Welcome/Pages/WelcomePage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/PartnerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.PartnerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\PartnerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\PartnerView.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Welcome/Pages/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Welcome.Pages.WelcomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Welcome\Pages\WelcomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Welcome\Pages\WelcomePage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/MainPage.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Resources/Styles/Colors.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/Resources/Styles/Styles.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/UI/Common/DotInput.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/UI/Common/DotInput.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.UI.Common.DotInput.xaml
 build_metadata.AdditionalFiles.TargetPath = UI\Common\DotInput.xaml
 build_metadata.AdditionalFiles.RelativePath = UI\Common\DotInput.xaml
 
-[C:/Users/User/source/repos/Cap/Cap/UI/Styles/TabBarStyle.xaml]
+[C:/Users/Asus/Downloads/Cap/Cap/UI/Common/popupCommon.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.UI.Common.popupCommon.xaml
+build_metadata.AdditionalFiles.TargetPath = UI\Common\popupCommon.xaml
+build_metadata.AdditionalFiles.RelativePath = UI\Common\popupCommon.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/UI/Styles/TabBarStyle.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.UI.Styles.TabBarStyle.xaml
 build_metadata.AdditionalFiles.TargetPath = UI\Styles\TabBarStyle.xaml

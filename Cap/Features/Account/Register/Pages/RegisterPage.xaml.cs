@@ -6,4 +6,10 @@ public partial class RegisterPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Buttonlogin_Clicked(object sender, EventArgs e)
+    {
+        //Navigation.PushAsync(new ForgotPasswordGoBack());
+        Shell.Current.GoToAsync(nameof(VerifyPhoneNumber));
+    }
 }

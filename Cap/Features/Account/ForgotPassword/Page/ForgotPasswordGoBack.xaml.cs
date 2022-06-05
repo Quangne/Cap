@@ -6,4 +6,9 @@ public partial class ForgotPasswordGoBack : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Buttonlogin_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync(nameof(TabPage));
+    }
 }

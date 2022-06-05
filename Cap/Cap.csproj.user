@@ -39,16 +39,25 @@
     <MauiXaml Update="Features\Common\TabHome.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Features\Home\Pages\FindIdPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Home\Pages\MyIDPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Home\Pages\PairPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Features\Home\Views\PartnerView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Welcome\Pages\WelcomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="UI\Common\DotInput.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="UI\Common\popupCommon.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="UI\Styles\TabBarStyle.xaml">

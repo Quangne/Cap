@@ -22,4 +22,9 @@ public partial class ForgotPasswordVerify : ContentPage
             return Convert.ToBoolean(_countSeconds);
         });
     }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync(nameof(ChangePasswordPage));
+    }
 }

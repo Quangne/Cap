@@ -92,7 +92,8 @@
                         FontFamily="Archia"
                         WidthRequest="252"
                         HeightRequest="48"
-                        CornerRadius="13" />
+                        CornerRadius="13" 
+                        Clicked="Button_Clicked"/>
                 </StackLayout>
 
             </StackLayout>

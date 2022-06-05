@@ -18,7 +18,6 @@ public partial class HomeBasePage : ContentPage
     {
         base.OnAppearing();
     }
-
     private void Story_Clicked(object sender, EventArgs e)
     {
         //Frame frame = this.Parent as Frame;

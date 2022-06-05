@@ -10,6 +10,6 @@
         ContentTemplate="{DataTemplate local:WelcomePage}"
         Route="WelcomePage" />-->
     <ShellContent
-        ContentTemplate="{DataTemplate local:MyIDPage}"
-        Route="MyIDPage" />
+        ContentTemplate="{DataTemplate local:WelcomePage}"
+        Route="WelcomePage" />
 </Shell>

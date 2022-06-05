@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cap.PairPage">
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Cap.PairPage"
+    Shell.PresentationMode="ModalAnimated">
     <ScrollView>
         <StackLayout>
             <Grid>
@@ -64,7 +66,8 @@
                         FontFamily="Archia"
                         WidthRequest="252"
                         HeightRequest="48"
-                        CornerRadius="13" />
+                        CornerRadius="13"
+                        Clicked="Button_Clicked" />
                     <Button
                         Text="Nhập ID ghép đôi"
                         TextColor="#FFF8F3"
@@ -73,7 +76,8 @@
                         FontFamily="Archia"
                         WidthRequest="252"
                         HeightRequest="48"
-                        CornerRadius="13" />
+                        CornerRadius="13"
+                        Clicked="Button_Clicked_1" />
                 </StackLayout>
             </StackLayout>
         </StackLayout>

@@ -1,4 +1,6 @@
-﻿namespace Cap;
+﻿using CommunityToolkit.Maui.Views;
+
+namespace Cap;
 
 public partial class WelcomePage : ContentPage
 {
@@ -24,7 +26,7 @@ public partial class WelcomePage : ContentPage
         if (indicatorView.Position == indicatorView.Count -1)
         {
 
-
+            Navigation.PushAsync(new LoginPage());
         }
 
     }
@@ -43,5 +45,14 @@ public partial class WelcomePage : ContentPage
             ButtonContinue.BackgroundColor = Color.FromHex("#575FCC");
         }
 
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
+        var popup = new popupCommon();
+
+        this.ShowPopup(popup);
+        //Navigation.PushAsync(new LoginPage());
     }
 }

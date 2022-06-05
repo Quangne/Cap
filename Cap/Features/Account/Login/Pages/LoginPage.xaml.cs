@@ -9,6 +9,7 @@ public partial class LoginPage : ContentPage
 		InitializeComponent();
 		BindingContext = viewModel;
 		lblRegisterFucn();
+        lblForgotPasswordFucn();
 
     }
 
@@ -16,6 +17,7 @@ public partial class LoginPage : ContentPage
     {
 		labelErr.Text = "Mật khẩu của bạn không đúng";
 		labelErr.TextColor = Colors.Red;
+        Shell.Current.GoToAsync(nameof(TabPage));
     }
 	void lblRegisterFucn()
     {
@@ -23,8 +25,19 @@ public partial class LoginPage : ContentPage
 		{
 			Command = new Command(() =>
             {
-				Shell.Current.GoToAsync(nameof(RegisterPage));
+                Shell.Current.GoToAsync(nameof(RegisterPage));
+                //App.Current.MainPage = new NavigationPage(new RegisterPage());
             })
 		});
+    }
+    void lblForgotPasswordFucn()
+    {
+        lblForgotPass.GestureRecognizers.Add(new TapGestureRecognizer()
+        {
+            Command = new Command(() =>
+            {
+                Shell.Current.GoToAsync(nameof(ForgotPasswordPage));
+            })
+        });
     }
 }

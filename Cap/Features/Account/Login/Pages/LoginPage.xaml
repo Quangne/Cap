@@ -5,7 +5,8 @@
     xmlns:main="clr-namespace:Cap"
     x:Class="Cap.LoginPage"
     x:DataType="main:LoginPageViewModel"
-    BackgroundColor="#E5E5E5">
+    Shell.PresentationMode="ModalAnimated"
+    BackgroundColor="#E5E5E5">  
     <ScrollView
         VerticalOptions="Center">
         <Grid
@@ -53,6 +54,7 @@
                         </main:InputView>
                     </StackLayout>
                     <Label
+                        x:Name="lblForgotPass"
                         Text="Quên mật khẩu?"
                         TextColor="#739EF1"
                         HorizontalOptions="EndAndExpand"
