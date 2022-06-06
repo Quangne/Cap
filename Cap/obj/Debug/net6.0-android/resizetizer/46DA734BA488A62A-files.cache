@@ -1,4 +1,6 @@
 ﻿obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\apple.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\avatar_man.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\avatar_wo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\background.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\background_welcome1.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\background_welcome2.png
@@ -6,8 +8,11 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\back_ground_forgot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\cap_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\chat_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\check.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\check_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\date_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dot_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\down_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\facebook.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\game_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\google.png
@@ -27,6 +32,8 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\welcome_image2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\welcome_image3.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\welcome_image4.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\apple.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\avatar_man.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\avatar_wo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\background.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\background_welcome1.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\background_welcome2.png
@@ -34,8 +41,11 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\back_ground_forgot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\cap_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\chat_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\check.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\check_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\date_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dot_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\down_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\facebook.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\game_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\google.png
@@ -55,6 +65,8 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\welcome_image2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\welcome_image3.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\welcome_image4.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\apple.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\avatar_man.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\avatar_wo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\background.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\background_welcome1.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\background_welcome2.png
@@ -62,8 +74,11 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\back_ground_forgot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\cap_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\chat_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\check.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\check_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\date_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\dot_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\down_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\facebook.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\game_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\google.png
@@ -83,6 +98,8 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\welcome_image2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\welcome_image3.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\welcome_image4.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\apple.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\avatar_man.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\avatar_wo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\background.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\background_welcome1.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\background_welcome2.png
@@ -90,8 +107,11 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\back_ground_forgot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\cap_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\chat_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\check.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\check_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\date_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\dot_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\down_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\facebook.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\game_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\google.png
@@ -111,6 +131,8 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\welcome_image2.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\welcome_image3.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\welcome_image4.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\apple.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\avatar_man.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\avatar_wo.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\background.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\background_welcome1.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\background_welcome2.png
@@ -118,8 +140,11 @@ obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\back_ground_forgot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\cap_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\chat_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\check.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\check_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\date_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dot_icon.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\down_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\facebook.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\game_icon.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\google.png

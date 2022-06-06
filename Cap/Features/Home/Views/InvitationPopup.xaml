@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="Cap.InvitationPopup"
+    Color="White">
+    <VerticalStackLayout>
+        <Grid
+            RowDefinitions="*,*,*"
+            RowSpacing="37">
+            <Grid
+                Grid.Row="0"
+                VerticalOptions="Center"
+                Margin="0,56,0,0">
+                <StackLayout
+                    Spacing="9">
+                    <Frame
+                        HasShadow="False"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        CornerRadius="50"
+                        Padding="0">
+                        <Image
+                            Source="avatar_wo.svg" />
+                    </Frame>
+                    <Label
+                        Text="Na le"
+                        FontSize="16"
+                        HorizontalOptions="Center" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Row="1">
+                <StackLayout
+                    HorizontalOptions="Center"
+                    Margin="52,0"
+                    Spacing="12">
+                    <Label
+                        Text="Lời mời ghép đôi"
+                        TextColor="Black"
+                        FontSize="24"
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"/>
+                    <Label
+                        Text="ID 239839 gửi lời mời ghép đôi với bạn. Bạn có đồng ý không?"
+                        TextColor="#555670"
+                        FontSize="14" 
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Row="2">
+                <StackLayout
+                    Orientation="Horizontal"
+                    Spacing="12"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center">
+                    <Button
+                        Text="Từ chối"
+                        TextColor="#555670"
+                        BackgroundColor="#DADBE7"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        CornerRadius="13"
+                        WidthRequest="114"
+                        Clicked="Button_Clicked_1" />
+                    <Button
+                        Text="Đồng ý"
+                        TextColor="#FFF8F3"
+                        BackgroundColor="#FF5C9E"
+                        FontSize="16"
+                        FontFamily="Archia"
+                        CornerRadius="13"
+                        WidthRequest="114"
+                        Clicked="Button_Clicked" />
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </VerticalStackLayout>
+</toolkit:Popup>

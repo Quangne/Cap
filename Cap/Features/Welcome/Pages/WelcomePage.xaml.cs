@@ -50,9 +50,9 @@ public partial class WelcomePage : ContentPage
     private void Button_Clicked(object sender, EventArgs e)
     {
 
-        var popup = new popupCommon();
+        //var popup = new popupCommon();
 
-        this.ShowPopup(popup);
-        //Navigation.PushAsync(new LoginPage());
+        //this.ShowPopup(popup);
+        Navigation.PushAsync(new LoginPage());
     }
 }

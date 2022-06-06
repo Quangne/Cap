@@ -87,6 +87,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Common.TabPag
 build_metadata.AdditionalFiles.TargetPath = Features\Common\TabPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Common\TabPage.xaml
 
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/CheckInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.CheckInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\CheckInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\CheckInfoPage.xaml
+
 [C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/FindIdPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.FindIdPage.xaml
@@ -110,6 +116,24 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.PairPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\PairPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\PairPage.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/InvitationPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.InvitationPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\InvitationPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\InvitationPopup.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/NotificationFailPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.NotificationFailPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\NotificationFailPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\NotificationFailPopup.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/NotificationSuccessPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.NotificationSuccessPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\NotificationSuccessPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\NotificationSuccessPopup.xaml
 
 [C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/PartnerView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

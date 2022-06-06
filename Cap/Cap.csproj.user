@@ -39,6 +39,9 @@
     <MauiXaml Update="Features\Common\TabHome.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Features\Home\Pages\CheckInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Home\Pages\FindIdPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -46,6 +49,15 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Home\Pages\PairPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Views\InvitationPopup.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Views\NotificationFailPopup.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Views\NotificationSuccessPopup.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Home\Views\PartnerView.xaml">

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.PresentationMode="ModalAnimated"
+    x:Class="Cap.CheckInfoPage"
+    BackgroundColor="#E5E5E5">
+    <Grid
+        RowDefinitions="*,*,*,*"
+        Margin="0,40">
+        <Grid
+            Grid.Row="0"
+            VerticalOptions="Center">
+            <StackLayout
+                Spacing="9">
+                <Frame
+                    HasShadow="False"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    CornerRadius="50"
+                    Padding="0">
+                    <Image
+                        Source="avatar_man.svg" />
+                </Frame>
+                <Label
+                    Text="Tiến Phú"
+                    FontSize="16"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+        </Grid>
+        <Grid
+            Grid.Row="1"
+            VerticalOptions="Center"
+            Margin="48,0">
+            <Frame
+                HasShadow="False"
+                BorderColor="#68D1A2"
+                BackgroundColor="#E5E5E5"
+                Padding="0">
+                <StackLayout
+                    Spacing="0"
+                    Margin="0,0,0,24">
+                    <Label
+                        Text="1"
+                        TextColor="#555670"
+                        FontSize="48"
+                        HorizontalOptions="Center" />
+                    <Label
+                        Text="ngày quen nhau"
+                        TextColor="#555670"
+                        FontSize="20"
+                        HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <Grid
+            Grid.Row="2">
+            <StackLayout
+                VerticalOptions="StartAndExpand"
+                Margin="20,0"
+                Spacing="8">
+                <Label
+                    Text="Chọn ngày 2 bạn bắt đầu quen nhau."
+                    TextColor="#555670"
+                    FontSize="14"
+                    HorizontalOptions="Center" />
+                <Frame
+                    HasShadow="False"
+                    BackgroundColor="White"
+                    BorderColor="White"
+                    Padding="16">
+                    <StackLayout
+                        Orientation="Horizontal"
+                        Spacing="12">
+                        <Image 
+                            Source="date_icon"
+                            WidthRequest="23"
+                            HeightRequest="21"/>
+                        <Label
+                            Text="Ngày 12 thg 5, 2021"
+                            FontSize="16"
+                            TextColor="#555670"/>
+                        <Image
+                            Source="down_icon"
+                            WidthRequest="16"
+                            HeightRequest="8" 
+                            HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+        <Grid
+            Grid.Row="3">
+            <StackLayout
+                Margin="60,0"
+                Spacing="24">
+                <Button
+                    Text="Gửi lời mời ghép đôi"
+                    TextColor="#FFF8F3"
+                    BackgroundColor="#FF5C9E"
+                    FontSize="16"
+                    FontFamily="Archia"
+                    CornerRadius="13"
+                    Clicked="Button_Clicked"/>
+                <Button
+                    Text="Khi khác"
+                    TextColor="#555670"
+                    BackgroundColor="#DADBE7"
+                    FontSize="16"
+                    FontFamily="Archia"
+                    CornerRadius="13" 
+                    Clicked="Button_Clicked_1"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

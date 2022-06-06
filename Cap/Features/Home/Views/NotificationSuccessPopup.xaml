@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="Cap.NotificationSuccessPopup"
+    Color="White">
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        Spacing="12">
+        <Image
+            Source="check_icon.svg"
+            HorizontalOptions="Center" 
+            Margin="0,24,0,0"/>
+        <StackLayout
+            HorizontalOptions="Center"
+            Margin="38,0"
+            Spacing="12">   
+            <Label
+                Text="Ghép đôi thành công!"
+                TextColor="Black"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+            <Label
+                Text="2 bạn đã được kết nối với nhau. CAP mong rằng 2 bạn sẽ có nhiều trải nghiệm thú vị!"
+                TextColor="#555670"
+                FontSize="14"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center" 
+                Margin="14,0"/>
+        </StackLayout>
+        <Button
+            Margin="42,12"
+            VerticalOptions="EndAndExpand"
+            Text="Bắt đầu"
+            TextColor="#FFF8F3"
+            BackgroundColor="#FF5C9E"
+            FontSize="16"
+            FontFamily="Archia"
+            CornerRadius="13"
+            Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</toolkit:Popup>

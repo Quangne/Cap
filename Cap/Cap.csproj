@@ -55,6 +55,7 @@
 	  <Folder Include="Features\Account\Register\Models\" />
 	  <Folder Include="Features\Account\Register\Views\" />
 	  <Folder Include="Features\Account\Register\Resources\" />
+	  <Folder Include="Features\Home\Resources\" />
 	  <Folder Include="Features\Welcome\Resources\" />
 	  <Folder Include="Features\Welcome\Views\" />
 	</ItemGroup>
@@ -103,6 +104,9 @@
 	  <MauiXaml Update="Features\Home\HomeBasePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Features\Home\Pages\CheckInfoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Features\Home\Pages\FindIdPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -110,6 +114,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Features\Home\Pages\PairPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Features\Home\Views\InvitationPopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Features\Home\Views\NotificationFailPopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Features\Home\Views\NotificationSuccessPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Features\Home\Views\PartnerView.xaml">

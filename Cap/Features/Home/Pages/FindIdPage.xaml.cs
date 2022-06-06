@@ -10,5 +10,6 @@ public partial class FindIdPage : ContentPage
     private void Button_Clicked(object sender, EventArgs e)
     {
 		ErrMess.IsVisible = true;
+        Shell.Current.GoToAsync(nameof(CheckInfoPage));
     }
 }
