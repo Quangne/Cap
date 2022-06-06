@@ -835,6 +835,21 @@
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-100.png">
+      <PackagePath>add_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-125.png">
+      <PackagePath>add_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-150.png">
+      <PackagePath>add_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-200.png">
+      <PackagePath>add_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-400.png">
+      <PackagePath>add_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -943,6 +958,36 @@
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\apple.scale-400.png">
       <PackagePath>apple.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_man.scale-100.png">
+      <PackagePath>avatar_man.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_man.scale-125.png">
+      <PackagePath>avatar_man.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_man.scale-150.png">
+      <PackagePath>avatar_man.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_man.scale-200.png">
+      <PackagePath>avatar_man.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_man.scale-400.png">
+      <PackagePath>avatar_man.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_wo.scale-100.png">
+      <PackagePath>avatar_wo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_wo.scale-125.png">
+      <PackagePath>avatar_wo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_wo.scale-150.png">
+      <PackagePath>avatar_wo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_wo.scale-200.png">
+      <PackagePath>avatar_wo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_wo.scale-400.png">
+      <PackagePath>avatar_wo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.png">
       <PackagePath>background.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -957,6 +1002,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-400.png">
       <PackagePath>background.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_story.scale-100.png">
+      <PackagePath>background_story.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_story.scale-125.png">
+      <PackagePath>background_story.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_story.scale-150.png">
+      <PackagePath>background_story.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_story.scale-200.png">
+      <PackagePath>background_story.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_story.scale-400.png">
+      <PackagePath>background_story.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background_welcome1.scale-100.png">
       <PackagePath>background_welcome1.scale-100.png</PackagePath>
@@ -1003,6 +1063,21 @@
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_ground_forgot.scale-400.png">
       <PackagePath>back_ground_forgot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\caption.scale-100.png">
+      <PackagePath>caption.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\caption.scale-125.png">
+      <PackagePath>caption.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\caption.scale-150.png">
+      <PackagePath>caption.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\caption.scale-200.png">
+      <PackagePath>caption.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\caption.scale-400.png">
+      <PackagePath>caption.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cap_icon.scale-100.png">
       <PackagePath>cap_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1048,6 +1123,36 @@
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check.scale-400.png">
       <PackagePath>check.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_icon.scale-100.png">
+      <PackagePath>check_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_icon.scale-125.png">
+      <PackagePath>check_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_icon.scale-150.png">
+      <PackagePath>check_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_icon.scale-200.png">
+      <PackagePath>check_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\check_icon.scale-400.png">
+      <PackagePath>check_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\date_icon.scale-100.png">
+      <PackagePath>date_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\date_icon.scale-125.png">
+      <PackagePath>date_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\date_icon.scale-150.png">
+      <PackagePath>date_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\date_icon.scale-200.png">
+      <PackagePath>date_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\date_icon.scale-400.png">
+      <PackagePath>date_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1077,6 +1182,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dot_icon.scale-400.png">
       <PackagePath>dot_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_icon.scale-100.png">
+      <PackagePath>down_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_icon.scale-125.png">
+      <PackagePath>down_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_icon.scale-150.png">
+      <PackagePath>down_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_icon.scale-200.png">
+      <PackagePath>down_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\down_icon.scale-400.png">
+      <PackagePath>down_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebook.scale-100.png">
       <PackagePath>facebook.scale-100.png</PackagePath>
@@ -1182,6 +1302,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\mask_group.scale-400.png">
       <PackagePath>mask_group.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_icon.scale-100.png">
+      <PackagePath>more_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_icon.scale-125.png">
+      <PackagePath>more_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_icon.scale-150.png">
+      <PackagePath>more_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_icon.scale-200.png">
+      <PackagePath>more_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\more_icon.scale-400.png">
+      <PackagePath>more_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Asus\Downloads\Cap\Cap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\noti_icon.scale-100.png">
       <PackagePath>noti_icon.scale-100.png</PackagePath>

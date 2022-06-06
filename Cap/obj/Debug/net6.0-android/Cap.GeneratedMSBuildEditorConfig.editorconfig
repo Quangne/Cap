@@ -93,6 +93,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.Ch
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\CheckInfoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\CheckInfoPage.xaml
 
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/CreateMilestonePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.CreateMilestonePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Pages\CreateMilestonePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Pages\CreateMilestonePage.xaml
+
 [C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Pages/FindIdPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Pages.FindIdPage.xaml
@@ -140,6 +146,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.PartnerView.xaml
 build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\PartnerView.xaml
 build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\PartnerView.xaml
+
+[C:/Users/Asus/Downloads/Cap/Cap/Features/Home/Views/StoryView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Cap.Features.Home.Views.StoryView.xaml
+build_metadata.AdditionalFiles.TargetPath = Features\Home\Views\StoryView.xaml
+build_metadata.AdditionalFiles.RelativePath = Features\Home\Views\StoryView.xaml
 
 [C:/Users/Asus/Downloads/Cap/Cap/Features/Welcome/Pages/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

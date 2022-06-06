@@ -42,6 +42,9 @@
     <MauiXaml Update="Features\Home\Pages\CheckInfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Features\Home\Pages\CreateMilestonePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Features\Home\Pages\FindIdPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -61,6 +64,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Home\Views\PartnerView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Features\Home\Views\StoryView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Features\Welcome\Pages\WelcomePage.xaml">

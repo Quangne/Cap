@@ -4,12 +4,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Cap.HomeBasePage"
     xmlns:main="clr-namespace:Cap"
+    Shell.PresentationMode="ModalAnimated"
     x:DataType="main:TabHomeBaseViewModel"
-    BackgroundColor="#E5E5E5">
-    <ContentPage.Resources>
-        <main:TabHome
-            x:Key="tab" />
-    </ContentPage.Resources>
+    BackgroundColor="White">
     <ScrollView>
         <StackLayout>
             <StackLayout
@@ -80,9 +77,13 @@
                 </StackLayout>
 
             </StackLayout>
-            <main:PartnerView>
+            <main:PartnerView
+                IsVisible="false">
                 
             </main:PartnerView>
+            <main:StoryView>
+                
+            </main:StoryView>
         </StackLayout>
     </ScrollView>
 </ContentPage>
